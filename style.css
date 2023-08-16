@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  background-image: url("background4.png");
+  color: black;
+}
+
+
+header {
+  background-image:url("background4.png") ;
+  background-color: orangered;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Comic Sans Ms", Arial;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  float: left;
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+table, th, td {
+  border: 2px solid green ;
+  border-collapse:collapse ;
+}
+
+.row {
+  display: flex; /* Use flexbox to create a row layout */
+}
+
+.column {
+  flex: 1; /* Each column will take an equal amount of space in the row */
+  padding: 10px;
+}
+
+.column.side {
+  margin-right: 20px; /* Add some spacing between the side columns */
+}
+
+@media screen and (max-width: 617px) {
+  .row {
+    flex-direction: column; /* On smaller screens, stack the columns vertically */
+  }
+}
+
+p {
+  text-align: justify;
+  background-image: url("wallpaper2.png");
+
+}
+
+
+.programming-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+}
+
